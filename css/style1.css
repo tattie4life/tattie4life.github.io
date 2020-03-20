@@ -192,6 +192,14 @@ faces mli {
 	left:40%;
 	top:80%;
 }
+
+.buttons_challenge {
+  	display: inline-block;
+  	width: 40%;
+	position:absolute;
+	left:37%;
+	top:75%;
+}
 .level_content {
   	width:100%;
 	height:100%;
