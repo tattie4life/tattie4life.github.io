@@ -4,7 +4,8 @@ modalBtns.forEach(function(btn){
 	btn.onclick= function() {
 		var modal = btn.getAttribute("data-modal");
 		
-		document.getElementById(modal).style.display = "block";
+		document.getElementById(modal).style.display = "block";	
+		
 	};
 });
 
@@ -15,3 +16,23 @@ closeBtns.forEach(function(btn){
 		var modal = (btn.closest(".modal").style.display = "none");
 	}
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

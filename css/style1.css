@@ -193,13 +193,7 @@ faces mli {
 	top:80%;
 }
 
-.buttons_challenge {
-  	display: inline-block;
-  	width: 40%;
-	position:absolute;
-	left:37%;
-	top:75%;
-}
+
 .level_content {
   	width:100%;
 	height:100%;
@@ -207,9 +201,67 @@ faces mli {
 /** during gameplay content end **/
 
 
+/** answer box **/
+answer{
+	display: inline-block;
+  	width: 40%;
+	left:40%;
+	top:80%;
+	z-index: 100;
+}
 
+.label_answerbox{
+	display:block;
+	position:absolute;
+	left:42%;
+	top:57%;
+	width:35%;
+	height: 15%;	
+}
 
+.answer_box{
+	display: inline-block;
+	position:absolute;
+	left:39%;
+	top:61%;
+	width:35%;
+	height: 15%;
+	border-color: yellow;
+	border-radius:10px;
+	border-width:3px;	
+}
+/** answer box **/
 
+/** buttons for challenge start **/
+.buttons_challenge {
+  	display: inline-block;
+  	width: 50%;
+	position:absolute;
+	left:37%;
+	top:79%;
+}
+
+.answer_button{
+	border-radius: 8px;
+	border-color: yellow;
+	border-width: 2px;
+	color:yellow;
+	background-color:blue;
+	width:40%;
+	height: 40%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding:0;
+}
+/** buttons for challenge end **/
+
+.coin{
+	font-size: 20px;
+	z-index: 1;
+	position:absolute;
+	left: 20%;
+	top:20%;
+	
+}
 
 
 
