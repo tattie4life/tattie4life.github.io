@@ -4,32 +4,47 @@
 <head>
 <link href="css/style1.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
-<title>Rocket Car Level_one</title>
+<title>Rocket Car Bear Challenge</title>
 </head>
 
 <body>
 	
-	<img src="images/game_content/deer_challenge.png" alt="no" class="level_content">
+	
+	
+	<img src="images/game_content/bear_challenge.png" alt="no" class="level_content">
 	
 	<answer>
-	<label class="label_answerbox">Input your answer in Capitals</label>
+	<label class="label_answerbox">USE THE BOX BELOW AS NOTES</label>
 	<textarea class="answer_box" id="answer_box"></textarea>
 	</answer>
 	
-	<div class="coin">
-		<img src="/images/coin.png">
-		<h1>Coins </h1>
+	
+	<div class="score_bar">
+		<h1 class="username">Rocket Fox</h1>
+		<img src="images/coin.png" alt="coin" class="coin">
+		<h1 class ="coin_label">Coins</h1><h1 class="score" id="score"></h1>
+		<a href="index.html"><img src="images/home_button.png" alt="home" class="home_button"></a>
 	</div>
 	
-	
+	<div class="paper_message">
+		</br><p>J BN GSFEEZ GPY, J IBWF BO TPNF CBE OFXT BCPVU XIBUT IBQQFOJOH EPXO TPVUI, VTF QBTTXPSE, <PP>GPSFWFS,</PP></BR><PR>HP MFGU PO NPVOUBJO ESJWF</PR></br></br>
+		</p>
+	</div>
 	
 	<div class="buttons_challenge">
-		<button class="answer_button" >HIPPOISKING</button>
-		<button class="answer_button" >KINGHIPPO</button>
-		<button class="answer_button" >HIPPOISTHEBEST</button>
-		<button class="answer_button" >HIPPHIPPO</button>
+		<PA>CHOOSE THE CORRECT PASSWORD WHICH IS IN PINK</PA>
+		<button onclick="window.location.href = 'cat_level.html';" onclick="score_2()" class="answer_button">FULL</button>
+		<button onclick="window.location.href = 'lion_level.html';" class="answer_button" >FOREVER</button>
+		<button onclick="window.location.href = 'cat_level.html';" class="answer_button" >KINGSEAL</button>
+		<button onclick="window.location.href = 'cat_level.html';" class="answer_button" >MONSTER</button>
 	</div>	
-		
+
+	<script>
+		let c_score = localStorage.getItem("current_score");
+		document.getElementById("score").innerHTML = c_score;
+	
+	</script>
+	
 </body>
 
 <script src="js/script1.js"> </script>

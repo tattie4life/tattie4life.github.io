@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+<head>
+
+
+<link href="css/style1.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>Rocket Car Help</title>
+
+</head>
+
+<body>	
+	<img src="images/foxlogo_mini.png" alt="logo" class="logo">
+	
+	<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+				    <li><a href="help.html">How To Play</a></li>
+					<li><b href="username.html">Create Username</b></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>			
+			</nav>	
+	</header>
+	<hr class="hr_style">
+	<div class="help_tutorial">
+		<h1>Input a Username you want to use</h1>
+		<textarea class="username_box" id="username_box"></textarea>
+		<phelp></br></br>Please do not use Your real name</br></br>
+		Do not use explicit words</br></br>
+		Avoid complex names if possible</br></br>
+		Click on the Rocket to launch the game when you are ready
+		</phelp>
+	</div>
+	<a href=game_launch.html><img src="images/rocket_go.png" alt="launch" class="launch" ></a>
+
+	<script>
+		var current_user =document.getElementById('username_box').value; document.getElementById('username_box').innerHTML;
+		localStorage.setItem("username", current_user);	
+	</script>
+</body>
+
+<script src="js/script1.js"> </script>
+</html>

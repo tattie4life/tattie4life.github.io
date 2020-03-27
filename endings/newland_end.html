@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<link href="../css/style1.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>Rocket Car Lose Ending</title>
+</head>
+
+<body>
+	
+	
+	<img src="../images/game_content/newland.png" alt="no" class="level_content">
+	
+	<div class="score_bar">
+		<h1 class="username">Rocket Fox</h1>
+		<img src="../images/coin.png" alt="coin" class="coin">
+		<h1 class ="coin_label">Coins</h1><h1 class="score" id="score"></h1>
+		<a href="../index.html"><img src="../images/home_button.png" alt="home" class="home_button"></a>
+	</div>
+	
+	<div class="lose_message">
+		</br><pend>We have decided to help out the monsters and have agreed if we help them find new land where they can reside happily then they will stop eating everything. Lets go and find these monsters somehwere suitable</br></br>
+		Press home button to return back to the home page.
+		</pend>
+	</div>
+	
+	
+	<script>
+		let c_score = localStorage.getItem("current_score");
+		document.getElementById("score").innerHTML = c_score;
+	</script>
+	
+</body>
+
+<script src="../js/script1.js"> </script>
+</html>

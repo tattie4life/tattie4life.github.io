@@ -1,11 +1,20 @@
 body {	
 	background: white;
-	font-family: 'Palatino Linotype Regular';
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#296BCB;
+	font-size: 3.5vw;
+	font-size: 3.5vh; 
+	font-size: 3.5vm;
 }
 
 header{
 	width:70%;
 	float:left;	
+}
+
+.hr_style{
+	color:#296BCB;
+	width:100%;
 }
 
 .logo {
@@ -25,13 +34,11 @@ header{
 }
 
 .launch {
-	width: 15%; 
+	width: 25%; 
 	position:absolute;
 	top:40%;
 	left:60%;
 }
-/** home page end **/
-
 
 /** nav bar start **/
 nav ul {
@@ -47,16 +54,15 @@ nav li {
 }
 
 nav b {
-	color: blue;
-  	text-decoration: none;
-  	font-size: 20px;
-  	font-weight: 5;
+	color:#296BCB;
+  	text-decoration: none; 	
 }
 
 nav a {
-  	color: #4EAFEF;
+  	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#296BCB;
   	text-decoration: none;
-  	font-size: 15px;
+  
 }
 /** nav bar end **/
 
@@ -116,17 +122,39 @@ faces mli {
 /**face-end**/
 
 
+/** home story start**/
+.paper_box{
+	position: relative;
+	width:40%;
+	height:45%;
+	top:25%;
+	left:0%;
+}
+
+.story_image{
+	position: relative;
+	left:0%;
+	top:-30%;
+	width:130%;
+	height:270%;
+}
+.story_box{
+	position: absolute;
+	top:60%;
+	left:38%;
+}
+/** home story end**/
+
+
 /**bio button begin**/
 .modal-open{
 	padding: 0;
 	background: white;
-	color: white;
-	border-radius: 4px;
-	outline: none;
-	border: none;
 }
 
 .modal{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
 	position: fixed;
 	top:0;
 	left: 0;
@@ -140,6 +168,7 @@ faces mli {
 .modal-content{
 	background: #fff;
 	margin-top: 100px;
+	color:#296BCB;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -149,15 +178,17 @@ faces mli {
 }
 
 .modal-header{
+	
 	font-weight: 500;
 	padding: 10px 0;
 	font-size: 26px;
 }
 
 .modal-header .modal-close{
+	color:red;
 	float:right;
-	font-size: 20px;
-	background: #efefef;
+	font-size: 15px;
+	background: white;
 	border: 0;
 	outline:0;
 	padding: 5px 8px;
@@ -165,7 +196,8 @@ faces mli {
 }
 
 .modal-body{
-	color:#7b7b7b;
+	
+	color:#296BCB;
 	padding: 15px 0;
 }
 
@@ -179,9 +211,12 @@ faces mli {
 	border: none;
 	outline: none;
 	border-radius: 4px;
-	color: blue;
+	background-color: #296BCB;
+	color: yellow;
 }
+
 /**bio button end**/
+/** home page end **/
 
 
 /** during gameplay content start **/
@@ -193,16 +228,18 @@ faces mli {
 	top:80%;
 }
 
-
 .level_content {
   	width:100%;
 	height:100%;
 }
+
 /** during gameplay content end **/
 
 
 /** answer box **/
 answer{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
 	display: inline-block;
   	width: 40%;
 	left:40%;
@@ -211,12 +248,16 @@ answer{
 }
 
 .label_answerbox{
+	color:#296BCB;
 	display:block;
 	position:absolute;
 	left:42%;
-	top:57%;
-	width:35%;
+	top:58%;
+	width:40%;
 	height: 15%;	
+	font-size: 2vw;
+	font-size: 2vh; 
+	font-size: 2vm;
 }
 
 .answer_box{
@@ -232,8 +273,11 @@ answer{
 }
 /** answer box **/
 
+
+
 /** buttons for challenge start **/
 .buttons_challenge {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   	display: inline-block;
   	width: 50%;
 	position:absolute;
@@ -246,13 +290,38 @@ answer{
 	border-color: yellow;
 	border-width: 2px;
 	color:yellow;
-	background-color:blue;
+	background-color:#3C78CF;
 	width:40%;
 	height: 40%;
-	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	padding:0;
 }
+
+.paper_message{
+	position:absolute;
+	top:16%;
+	left:56.5%;
+	width:30%;
+	height:30%;
+	font-size: 1.5vw;
+	font-size: 1.5vh; 
+	font-size: 1.5vm;
+}
+
+.paper_message_boss{
+	position:absolute;
+	top:20%;
+	left:40%;
+	width:20%;
+	height:30%;
+	font-size: 1.5vw;
+	font-size: 1.5vh; 
+	font-size: 1.5vm;
+}
 /** buttons for challenge end **/
+
+
+
+/** top bar during gameplay start**/
 .score_bar{
 	width:100%;
 	font-size: 10px;
@@ -260,40 +329,156 @@ answer{
 	left: 0%;
 	top:0%;	
 	height:9%;	
+	font-size: 1.5vw;
+	font-size: 1.5vh;
+	font-size: 1.5vm;
+}
+
+.username{
+	position:fixed;
+	left:1%;
+	top:2%;	
+	padding: 0%;
+	margin: 0;
+	display: inline-block;
 }
 
 .coin{
 	position:fixed;
-	width:10%;
 	height:10%;
-	left: 39%;
-	top:0%;	
-	padding: 0;
-	margin: 0;
+	left: 34%;
+	top:0%;
+	display: inline-block;
 }
 
 .coin_label{
 	position:fixed;
-	left: 48%;
-	top:1%;	
-	padding: 0;
+	left:43%;
+	top:2%;	
+	padding: 0%;
 	margin: 0;
+	display: inline-block;
 }
 
-.home_button{
+.score{
 	position:fixed;
-	width:7%;
+	left:55%;
+	top:2%;	
+	padding: 0%;
+	margin: 0;
+	display: inline-block;
+}
+.home_button{
+	
+	position:fixed;
+	width:5%;
 	height: 7%;
-	left: 90%;
+	left: 93%;
 	top: 1%;
 		
 }
+/** top bar during gameplay end**/
 
-h1{
-   font-size: 5vw;
-   font-size: 5vh; 
-   font-size: 5vm; 
+.help_tutorial{
+	position:fixed;
+	left:10%;
+	top:22%;
+	width:60%;
+	
 }
+
+.username_box{
+	font-size: 6vw;
+	font-size: 6vh; 
+	font-size: 6vm;  
+	width:90%;
+	border-style: double;
+	border-radius: 10px;
+	border-color:#296BCB
+}
+
+/** ending messages begin **/
+.evacuate_message{
+	position:absolute;
+	top:45%;
+	left:7%;
+	width:20%;
+	height:70%;
+}
+
+.lose_message{
+	position:absolute;
+	top:65%;
+	left:7%;
+	width:35%;
+	height:70%;
+	
+}
+
+.together_message{
+	position:absolute;
+	top:65%;
+	left:40%;
+	width:35%;
+	height:70%;
+}
+/** ending messages end **/
+
+
+/** fonts start **/
+h1{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+	color:#296BCB;
+	font-size: 5vw;
+	font-size: 5vh;  
+}
+
+pend{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#296BCB;
+	font-weight: bold;
+	font-size: 2.5vw;
+	font-size: 2.5vh; 
+	
+}
+
+p{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#296BCB;
+	font-weight: bold;
+	font-size: 1.8vw;
+	font-size: 1.8vh; 
+	
+}
+
+phelp{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#296BCB;
+	font-weight: bold;
+	font-size: 3vw;
+	font-size: 3vh; 
+	font-size: 3vm;
+}
+
+pr{
+	color: red;
+}
+
+pp{
+	color:#D309CB;
+}
+
+pa{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+	display:block;
+	color:#296BCB;
+	font-size: 2vw;
+	font-size: 2vh; 
+	font-size: 2vm;
+}
+/** fonts end **/
 
 
 

@@ -1,0 +1,1 @@
+let c_score = localStorage.getItem("current_score");
