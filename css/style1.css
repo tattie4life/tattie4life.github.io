@@ -179,7 +179,6 @@ faces mli {
 
 .modal-header{
 	
-	font-weight: 500;
 	padding: 10px 0;
 	font-size: 26px;
 }
@@ -196,7 +195,7 @@ faces mli {
 }
 
 .modal-body{
-	
+	font-weight: 5;
 	color:#296BCB;
 	padding: 15px 0;
 }
