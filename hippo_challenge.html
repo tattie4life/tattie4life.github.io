@@ -5,6 +5,16 @@
 <link href="css/style1.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>Rocket Car Hippo Challenge</title>
+<script>
+		
+	function score_2() {
+		localStorage.setItem("current_score", 8);	
+	}
+	
+	localStorage.getItem('localKey');
+	document.getElementById("score").innerHTML = 6;
+	
+</script>
 </head>
 
 <body>
@@ -34,16 +44,13 @@
 	
 	<div class="buttons_challenge">
 		<PA>CHOOSE THE CORRECT PASSWORD WHICH IS IN PINK</PA>
-		<button onclick="window.location.href = 'fox_level.html';" onclick="score_2()" class="answer_button">TIGERS4LIFE</button>
+		<button id="correct_button" onclick="double_coin(); window.location.href = 'fox_level.html';" class="answer_button">TIGERS4LIFE</button>
 		<button onclick="window.location.href = 'rabbit_level.html';" class="answer_button" >HUNGRY</button>
-		<button onclick="window.location.href = 'rabbit_level';" class="answer_button" >KINGSEAL</button>
-		<button onclick="window.location.href = 'rabbit_level';" class="answer_button" >MONSTER</button>
+		<button onclick="window.location.href = 'rabbit_level.html';" class="answer_button" >KINGSEAL</button>
+		<button onclick="window.location.href = 'rabbit_level.html';" class="answer_button" >MONSTER</button>
 	</div>	
 		
-	<script>
-		let c_score = localStorage.getItem("current_score");
-		document.getElementById("score").innerHTML = c_score;
-	</script>
+	
 	
 </body>
 

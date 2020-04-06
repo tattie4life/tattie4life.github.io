@@ -34,17 +34,11 @@
 	<div class="buttons_challenge">
 		<PA>CHOOSE THE CORRECT PASSWORD WHICH IS IN PINK</PA>
 		<button onclick="window.location.href = 'cat_level.html';" onclick="score_2()" class="answer_button">FULL</button>
-		<button onclick="window.location.href = 'lion_level.html';" class="answer_button" >FOREVER</button>
+		<button id="correct_button" onclick="one_coin(); window.location.href = 'lion_level.html';" class="answer_button">FOREVER</button>
 		<button onclick="window.location.href = 'cat_level.html';" class="answer_button" >KINGSEAL</button>
 		<button onclick="window.location.href = 'cat_level.html';" class="answer_button" >MONSTER</button>
 	</div>	
 
-	<script>
-		let c_score = localStorage.getItem("current_score");
-		document.getElementById("score").innerHTML = c_score;
-	
-	</script>
-	
 </body>
 
 <script src="js/script1.js"> </script>

@@ -299,7 +299,7 @@ answer{
 	position:absolute;
 	top:16%;
 	left:56.5%;
-	width:30%;
+	width:25%;
 	height:30%;
 	font-size: 1.5vw;
 	font-size: 1.5vh; 
@@ -361,7 +361,7 @@ answer{
 
 .score{
 	position:fixed;
-	left:55%;
+	left:57%;
 	top:2%;	
 	padding: 0%;
 	margin: 0;

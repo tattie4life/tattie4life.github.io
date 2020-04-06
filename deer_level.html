@@ -5,6 +5,7 @@
 <link href="css/style1.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>Rocket Car deer Level</title>
+
 </head>
 
 <body>
@@ -12,7 +13,7 @@
 	<div class="score_bar">
 		<h1 class="username">Rocket Fox</h1>
 		<img src="images/coin.png" alt="coin" class="coin">
-		<h1 class ="coin_label">Coins</h1><h1 class="score" id="score">0</h1>
+		<h1 class ="coin_label">Coins</h1><h1 class="score" id="score"></h1>
 		<a href="index.html"><img src="images/home_button.png" alt="home" class="home_button"></a>
 	</div>
 	
@@ -26,12 +27,12 @@
 	</div>
 		
 	
-	<script>
-		let c_score = localStorage.getItem("current_score");
-		document.getElementById("score").innerHTML = c_score;
 	
-	</script>
 </body>
-
+	
+<script>
+	localStorage.setItem("current_score", 0);
+</script>
+	
 <script src="js/script1.js"> </script>
 </html>

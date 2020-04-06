@@ -35,16 +35,10 @@
 	<div class="buttons_challenge">
 		<PA>CHOOSE THE CORRECT PASSWORD WHICH IS IN PINK</PA>
 		<button onclick="window.location.href = 'bread.html';" onclick="score_2()" class="answer_button">YELLOW</button>
-		<button onclick="window.location.href = 'astro.html';" class="answer_button" >EATFOOD</button>
+		<button id="correct_button" onclick="treble_coin(); window.location.href = 'astro.html';" class="answer_button" >EATFOOD</button>
 		<button onclick="window.location.href = 'bread.html';" class="answer_button" >BLUE</button>
 		<button onclick="window.location.href = 'bread.html';" class="answer_button" >MONSTER</button>
 	</div>	
-
-	<script>
-		let c_score = localStorage.getItem("current_score");
-		document.getElementById("score").innerHTML = c_score;
-	
-	</script>
 	
 </body>
 
