@@ -361,7 +361,7 @@ answer{
 
 .score{
 	position:fixed;
-	left:57%;
+	left:56%;
 	top:2%;	
 	padding: 0%;
 	margin: 0;
@@ -391,6 +391,7 @@ answer{
 	font-size: 6vh; 
 	font-size: 6vm;  
 	width:90%;
+	color:#296BCB;
 	border-style: double;
 	border-radius: 10px;
 	border-color:#296BCB

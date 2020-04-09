@@ -1,3 +1,4 @@
+/** bio buttons start **/
 var modalBtns = document.querySelectorAll(".modal-open");
 
 modalBtns.forEach(function(btn){
@@ -16,8 +17,11 @@ closeBtns.forEach(function(btn){
 		var modal = (btn.closest(".modal").style.display = "none");
 	}
 });
+/** bio buttons end **/
 
 
+
+/** Scoring system start **/
 var current_score = localStorage.getItem("current_score");
 document.getElementById("score").innerHTML = current_score;
 
@@ -48,6 +52,11 @@ function one_coin(){
 	localStorage.setItem("current_score", newVal);
 	document.getElementById("score").innerHTML = newVal;
 }
+/** Scoring system start **/
+
+var current_name = localStorage.getItem("current_name");
+document.getElementById("uNameLabel").innerHTML = current_name;
+
 
 
 
